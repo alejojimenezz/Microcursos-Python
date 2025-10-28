@@ -22,12 +22,13 @@
 
 ### Descarga e instalación de Python
 
-https://www.python.org/downloads/
+[Sitio oficial de Python](https://www.python.org/downloads/)
 
 ### Instalación de IDE
 
 - Visual Studio Code
 - PyCharm
+- Spyder
 
 ### Impresión de datos en consola
 
@@ -83,11 +84,44 @@ else:
 
 ### FOR
 
+Ejecutar un bloque de código iterando en una secuencia
+
+```python
+fruits = ["apple", "banana", "cherry"]
+
+for x in fruits:
+    print(x)
+```
+
 ### WHILE
+
+Ejecutar un bloque de código mientras una condición se cumpla
+
+```python
+i = 1
+
+while i < 6:
+    print(i)
+    i += 1
+```
 
 ## Aplicaciones
 
-Gráficas usando MatPlotLib
+Usando MatPlotLib y Numpy
+
+> [!NOTE]
+> 
+> ```console
+> pip install matplotlib
+> pip install numpy
+> ```
+>
+> ```python
+> import matplotlib
+> import numpy
+> print(matplotlib.__version__)
+> print(numpy.__version__)
+> ```
 
 ```python
 print("Hello World")
@@ -95,6 +129,6 @@ print("Hello World")
 
 ## Consejos
 
-- Usar nombres claros para variables.
+- Usar nombres claros y descriptivos para variables.
 - No subestimar la utilidad de los mensajes de consola.
 - Documentar el trabajo.
