@@ -20,7 +20,7 @@ procesadores_parejas = ['i5-12400F | Ryzen 5 7600', 'i7-12700K | Ryzen 7 7800X3D
 
 plt.xlabel('Procesador', fontweight='bold')
 plt.ylabel('Puntaje de rendimiento', fontweight='bold')
-plt.title('Intel vs. AMD')
+plt.title('Intel vs. AMD', fontsize=15, fontweight='bold')
 plt.xticks(x, procesadores_parejas, fontsize=8)
 plt.legend()
 plt.grid(axis='y', linestyle='--', alpha=0.6)
