@@ -75,6 +75,8 @@ else:
 - Múltiples `elif`
 - 1 `else`
 
+> Diagrama de flujo
+
 ```python
 a = input("Ingrese el primer numero 'a': ")
 b = input("Ingrese el primer numero 'b': ")
@@ -100,6 +102,8 @@ while <expresión>:
     <instrucciones para expresión = True>
 ```
 
+> Diagrama de flujo
+
 ```python
 i = 1
 
@@ -116,6 +120,8 @@ Ejecutar un bloque de código iterando en una secuencia.
 for <iterador> in <colección>:
     <instrucciones para cada elemento>
 ```
+
+> Diagrama de flujo
 
 ```python
 fruits = ["apple", "banana", "cherry"]
